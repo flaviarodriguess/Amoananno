@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Pizzaria MaggieRita</title>
+    <link rel="stylesheet" href="Sobre.html">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Pizzaria MaggieRita</h1>
+        <nav>
+            <a href="Index.html">Início</a>
+            <a href="Sobre.html">Sobre</a>
+            <a href="Contato.css">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contato</h2>
+        <form action="enviar_formulario.php" 
+method="post">
+        <label for="número">Número*:</label>
+        <input type="número" id="número" 
+name="número" required>
+        <label for="e-mail">E-mail*:</label>
+        <input type="e-mail" id="e-mail" 
+name="e-mail" required>
+        <label for="mensagem"> <br> Mensagem*:</label>
+        <textarea id="mensagem" style="margin-top: 25px;" 
+name="mensagem" rows="4" required></textarea>
+        <label for="Endereço">Endereço*:</label>
+        <input type="text" id="Endereço" 
+name="endereço" required>
+        <label for="Reclamação, Sugestão, Elogio e/ou Informação"> <br> Reclamação, Sugestão, Elogio e/ou Informação*:</label>
+        <input type="Reclamação, Sugestão, Elogio e/ou Informação" id="Reclamação, Sugestão, Elogio e/ou Informação"
+name="Reclamação, Sugestão, Elogio e/ou Informação" style="margin-top: 30px;" required>
+    <button type="submit">Enviar</button>
+        </form>
+        <h3>Nossa localização</h3>
+        <p>Endereço: Rua ametista, 152,
+        Centro, São Paulo, Brasil</p>
+        <p>Horário de Funcionamento:</p>
+        <ul>
+            <li>Segunda a Sexta: 12:00 - 22:00</li>
+            <li>Sábado: 12:00 - 23:00</li>
+            <li>Domingo: 12:00 - 21:00</li>
+        </ul>
+        <p>Número de Contato: (11) 9876-5461</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 pizzaria MaggieRita.</p>
+    </footer>
+    </div>
+</body>
+</html>
