@@ -1,0 +1,42 @@
+body {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+}
+main {
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+form {
+    margin-bottom: 20px;
+}
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+button {
+    background-color: #f0b789;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ee9a55;
+}
