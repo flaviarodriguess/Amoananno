@@ -1,0 +1,99 @@
+@media (max-width: 600px) {
+    body { 
+    background-color: #7bc477;
+    }
+    }
+    body { 
+    font-family: 'Lucida Sans', Arial, sans-serif; margin: 0; 
+    padding: 0;
+    background-color: #f4f4f4; 
+    background-image: 
+    url('background-ghibli.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+    }
+    
+    header { background: #7bc477;
+    color: #ffffff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-family: 'Cursive', sans-serif; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+    }
+    
+    nav ul li { display: inline; 
+    margin: 0 15px;
+    }
+    
+    nav a { 
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease;
+    }
+    
+    nav a:hover { color: #fdd835;
+    }
+    
+    main{
+    padding: 20px;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    section { 
+    margin: 20px 0; 
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 { 
+    color: #7bc47b; 
+    font-family: 'Cursive', sans-serif; 
+    }
+    
+    .decorated-image {
+    width: 150px;
+    border-radius: 10px;
+        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+    border: 2px solid #7bc477;
+        
+    margin: 10px 0;
+        
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+    }
+        
+    @media (max-width: 600px) {
+    body { background-color: #7bc477;
+    }
+    }
+
+    footer { 
+    text-align: center; 
+    padding: 10px 0; 
+    background: #7bc477; 
+    color: #ffffff; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
+    p{
+        text-align: center;
+    }
+    
