@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamscape Adventures - Final</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #16a085;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #5e00a7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #7f00c8;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Parabéns!</h1>
+        <p>Você completou sua jornada e restaurou a harmonia nos reinos dos sonhos.</p>
+        <button onclick="restartGame()">Jogar Novamente</button>
+    </div>
+
+    <script>
+        function restartGame() {
+            window.location.href = 'inicio.html';
+        }
+    </script>
+</body>
+</html>
